@@ -1,12 +1,20 @@
-# Examples of my code
+# Code Examples
 
 
 **Diffpack**
-Blah
+
+Code used to...
 
 **analysis-highx**
-Blah
+
+Code used to...
 
 **ML**
-Blah
+
+Code used to...
+
+
+
+
+
 
