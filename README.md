@@ -3,7 +3,15 @@
 
 **Diffpack**
 
-Code used to...
+This code shows the basis 
+
+Consists of the following modules:
+* fitlib:
+* obslib:
+* qcdlib:
+* database:
+
+
 
 **analysis-highx**
 
