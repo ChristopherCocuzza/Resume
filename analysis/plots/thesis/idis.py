@@ -603,13 +603,14 @@ def plot_proton(wdir, data, kc, istep):
     ax21.set_yticks([1e-2, 1e-1, 1e0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7])
     ax21.set_yticklabels([r'$10^{-2}$', r'$10^{-1}$', r'$1$', r'$10$', r'$10^2$', r'$10^3$', r'$10^4$', r'$10^5$', r'$10^6$', r'$10^7$'])
 
-    ax21.tick_params(axis = 'both', labelsize = 30)
+    ax21.tick_params(axis = 'both', labelsize = 30, pad=10)
 
     ax21.set_xlabel(r'\boldmath$Q^2$' + '  ' + r'\textbf{\textrm{(GeV}}' + r'\boldmath$^2)$', size=40)
 
     #ax21.text(1.2, 5e-2,  r'\boldmath$\sigma_r^{p,NC}$', size = 60)
     #ax21.text(13.0,7e-2, r'$(\, \times\, 2^{\, i})$',   size = 40)
-    ax21.text(0.05, 0.10,  r'\boldmath$\sigma_r^{p \textrm{(NC)}}$', transform = ax21.transAxes, size = 60)
+    ax21.text(0.70, 0.75,  r'\textrm{\textbf{HERA}}', transform = ax21.transAxes, size = 50)
+    ax21.text(0.05, 0.12,  r'\boldmath$\sigma_{\rm red}^{\rm NC}$', transform = ax21.transAxes, size = 60)
     ax21.text(0.05, 0.04, r'$(\, \times\, 2^{\, i})$',               transform = ax21.transAxes, size = 40)
 
     ax21.text(2.0e3, 3.0e4, r'$\sqrt{s}=318 \,\rm{GeV}$', fontsize = 40)
@@ -626,8 +627,8 @@ def plot_proton(wdir, data, kc, istep):
 
 
     handles = [hand['HERA 10026'],hand['HERA 10030']]
-    label1  = r'\textbf{\textrm{HERA NC}} \boldmath$e^+p$'
-    label2  = r'\textbf{\textrm{HERA NC}} \boldmath$e^-p$'
+    label1  = r'\boldmath$e^+p$'
+    label2  = r'\boldmath$e^-p$'
     labels  = [label1,label2]
     ax21.legend(handles,labels,loc='upper right', fontsize = 35, frameon = 0, handletextpad = 0.3, handlelength = 1.0)
 
@@ -724,7 +725,8 @@ def plot_proton(wdir, data, kc, istep):
 
     #ax22.text(1.50 , 3.0e-2, r'\boldmath$\sigma_r^{p,NC}$', size = 60)
     #ax22.text(13.0 , 5.0e-2, r'$(\, \times\, 2^{\, i})$',   size = 40)
-    ax22.text(0.05, 0.10,  r'\boldmath$\sigma_r^{p \textrm{(NC)}}$', transform = ax22.transAxes, size = 60)
+    ax22.text(0.62, 0.75,  r'\textrm{\textbf{HERA}}' + ' ' + r'\boldmath$e^-p$', transform = ax22.transAxes, size = 50)
+    ax22.text(0.05, 0.12,  r'\boldmath$\sigma_{\rm red}^{\rm NC}$', transform = ax22.transAxes, size = 60)
     ax22.text(0.05, 0.04, r'$(\, \times\, 2^{\, i})$',               transform = ax22.transAxes, size = 40)
 
     ax22.set_xticks([1.0, 10.0, 1e2, 1e3, 1e4])
@@ -751,17 +753,18 @@ def plot_proton(wdir, data, kc, istep):
     ax22.tick_params(axis = 'y', which = 'both', labelleft = True, labelright = False, direction = 'in')
     ax22.tick_params(axis = 'x', which = 'both', labeltop = False, labelbottom = True, direction = 'in')
 
-    ax22.tick_params(axis='both',labelsize=30)
+    ax22.tick_params(axis='both',labelsize=30,pad=10)
 
     handles = [hand['HERA 10027'],hand['HERA 10028'],hand['HERA 10029']]
-    label1  = r'\textbf{\textrm{HERA}}' + r'$\sqrt{s}=300$'# + ' ' +  r'\textrm{GeV}'
-    label2  = r'\textbf{\textrm{HERA}}' + r'$\sqrt{s}=251$'# + ' ' +  r'\textrm{GeV}'
-    label3  = r'\textbf{\textrm{HERA}}' + r'$\sqrt{s}=225$'# + ' ' +  r'\textrm{GeV}'
+    label1  = r'\boldmath$\sqrt{s}=300$' + ' ' +  r'\textrm{\textbf{GeV}}'
+    label2  = r'\boldmath$\sqrt{s}=251$' + ' ' +  r'\textrm{\textbf{GeV}}'
+    label3  = r'\boldmath$\sqrt{s}=225$' + ' ' +  r'\textrm{\textbf{GeV}}'
     labels  = [label1,label2,label3]
-    ax22.legend(handles,labels,loc='upper right', fontsize = 35, frameon = 0, handletextpad = 0.3, handlelength = 1.0)
+    ax22.legend(handles,labels,loc='upper right', fontsize = 30, frameon = 0, handletextpad = 0.3, handlelength = 1.0)
 
 
     py.tight_layout()
+    py.subplots_adjust(right=0.99)
     filename = '%s/gallery/DIS-proton'%cwd
     filename += '.png'
     #filename += '.pdf'
@@ -872,7 +875,7 @@ def plot_deuteron(wdir, data, kc, istep):
     ax11.set_xlabel(r'\boldmath$Q^2$' + '  ' + r'\textbf{\textrm{(GeV}}' + r'\boldmath$^2)$', size=40)
 
     ax11.text(0.05,0.05,r'\boldmath$F_2^D$',      transform = ax11.transAxes, size = 60)
-    ax11.text(0.15,0.05,r'$(\times\, 2^{\, i})$', transform = ax11.transAxes, size = 40)
+    ax11.text(0.17,0.05,r'$(\times\, 2^{\, i})$', transform = ax11.transAxes, size = 40)
 
     ax11.yaxis.set_ticks_position('both')
     ax11.xaxis.set_ticks_position('both')
@@ -963,7 +966,7 @@ def plot_deuteron(wdir, data, kc, istep):
     ax12.set_xlabel(r'\boldmath$Q^2$' + '  ' + r'\textbf{\textrm{(GeV}}' + r'\boldmath$^2)$', size=40)
 
     ax12.text(0.05,  0.70,   r'\boldmath$F_2^D$',         transform = ax12.transAxes, size = 60)
-    ax12.text(0.15,  0.70,   r'$(\, \times\, 2^{\, i})$', transform = ax12.transAxes, size = 40)
+    ax12.text(0.17,  0.70,   r'$(\, \times\, 2^{\, i})$', transform = ax12.transAxes, size = 40)
 
     ax12.xaxis.set_tick_params(which = 'major', length = 10)
     ax12.xaxis.set_tick_params(which = 'minor', length = 5)
@@ -1070,8 +1073,8 @@ def plot_deuteron(wdir, data, kc, istep):
 
     ax21.set_xlabel(r'\boldmath$Q^2$' + '  ' + r'\textbf{\textrm{(GeV}}' + r'\boldmath$^2)$', size=40)
 
-    ax21.text(0.60, 0.75,  r'\boldmath$F_2^D/F_2^p$',  transform = ax21.transAxes, size = 60)
-    ax21.text(0.85, 0.75,  r'$(\, \times\, 2^{\, i})$',transform = ax21.transAxes, size = 40)
+    ax21.text(0.57, 0.78,  r'\boldmath$F_2^D/F_2^p$',  transform = ax21.transAxes, size = 60)
+    ax21.text(0.84, 0.78,  r'$(\, \times\, 2^{\, i})$',transform = ax21.transAxes, size = 40)
 
     ax21.yaxis.set_ticks_position('both')
     ax21.xaxis.set_ticks_position('both')
@@ -1149,7 +1152,7 @@ def plot_deuteron(wdir, data, kc, istep):
     ax22.set_xlabel(r'\boldmath$x$',size=40)
 
     ax22.text(0.05, 0.90,   r'\boldmath$F_2^n/F_2^D$',   transform = ax22.transAxes, size = 60)
-    ax22.text(0.30, 0.90,   r'$(\, \times\, 4^{\, i})$', transform = ax22.transAxes, size = 40)
+    ax22.text(0.32, 0.90,   r'$(\, \times\, 4^{\, i})$', transform = ax22.transAxes, size = 40)
 
     ax22.xaxis.set_tick_params(which = 'major', length = 10)
     ax22.xaxis.set_tick_params(which = 'minor', length = 5)
@@ -1253,10 +1256,12 @@ def plot_CC(wdir, data, kc, istep):
     ax.set_xlim(1.5e2,   4e4)
     ax.set_ylim(1.0e-2,  8e5)
 
-    ax.set_xticks([2e2, 1e3, 1e4, 4e4])
-    ax.set_xticklabels([r'$200$', r'$10^3$', r'$10^4$', r'$4\cdot10^4$'])
+    ax.set_xticks([2e2, 1e3, 1e4])
+    ax.set_xticklabels([r'$200$', r'$10^3$', r'$10^4$'])
     ax.set_yticks([1e-2, 1e-1, 1e0, 1e1, 1e2, 1e3, 1e4, 1e5])
     ax.set_yticklabels([r'$10^{-2}$', r'$10^{-1}$', r'$1$', r'$10$', r'$10^2$', r'$10^3$', r'$10^4$', r'$10^5$'])
+
+    ax.tick_params(axis = 'x', pad = 10)
 
     ax.tick_params(axis = 'both', labelsize = 30)
 
@@ -1264,7 +1269,7 @@ def plot_CC(wdir, data, kc, istep):
 
     #ax.text(1.8e2, 2.0e-2, r'\boldmath$\sigma_r^{p,CC}$', size = 60)
     #ax.text(5.6e2, 2.6e-2,  r'$(\, \times\, 5^{\, i})$',   size = 40)
-    ax.text(0.05, 0.08,  r'\boldmath$\sigma_r^{p \textrm{(CC)}}$',transform = ax.transAxes, size = 60)
+    ax.text(0.05, 0.10,  r'\boldmath$\sigma_{\rm red}^{\rm CC}$',transform = ax.transAxes, size = 60)
     ax.text(0.05, 0.03,  r'$(\, \times\, 5^{\, i})$'             ,transform = ax.transAxes, size = 40)
 
     ax.xaxis.set_tick_params(which = 'major', length = 10)
@@ -1280,8 +1285,8 @@ def plot_CC(wdir, data, kc, istep):
     #ax.text(5.0e3,  2.0e4, r'$\sqrt{s}=318 \,\rm{GeV}$', fontsize = 40)
 
     handles = [hand['HERA 10031'],hand['HERA 10032'],(thy_band,thy_plot)]
-    label1  = r'\textbf{\textrm{HERA CC}} \boldmath$e^+p$'
-    label2  = r'\textbf{\textrm{HERA CC}} \boldmath$e^-p$'
+    label1  = r'\textbf{\textrm{HERA}} \boldmath$e^+p$'
+    label2  = r'\textbf{\textrm{HERA}} \boldmath$e^-p$'
     label3  = r'\textbf{\textrm{JAM}}'
     labels  = [label1,label2,label3]
     ax.legend(handles,labels,loc='upper right', fontsize = 35, frameon = 0, handletextpad = 0.3, handlelength = 1.0)
@@ -1355,7 +1360,7 @@ def plot_A3(wdir, data, kc, istep):
     ax11.xaxis.set_tick_params(which = 'major', length = 5)
     ax11.xaxis.set_tick_params(which = 'minor', length = 2.5)
 
-    ax11.set_xlabel(r'\boldmath$x$', size=30)
+    ax11.set_xlabel(r'\boldmath$x_{\rm bj}$', size=30)
     ax11.xaxis.set_label_coords(0.95,0.00)
 
     ax11.text(0.05, 0.85, r'\boldmath$F_2^{^3\rm{He}}/F_2^{D}$', transform = ax11.transAxes, size = 40)
@@ -1431,7 +1436,7 @@ def plot_A3(wdir, data, kc, istep):
     ax12.xaxis.set_tick_params(which = 'major', length = 5)
     ax12.xaxis.set_tick_params(which = 'minor', length = 2.5)
 
-    ax12.set_xlabel(r'\boldmath$x$', size=30)
+    ax12.set_xlabel(r'\boldmath$x_{\rm bj}$', size=30)
     ax12.xaxis.set_label_coords(0.95,0.00)
 
     ax12.text(0.05, 0.85, r'\boldmath$F_2^{^3\rm{He}}/F_2^{^3\rm{H}}$', transform = ax12.transAxes, size = 40)
@@ -1494,9 +1499,9 @@ if __name__ == "__main__":
 
     checkdir('%s/gallery'%cwd)
     plot_proton  (wdir, data, kc, istep)
-    plot_deuteron(wdir, data, kc, istep)
-    plot_CC      (wdir, data, kc, istep)
-    plot_A3      (wdir, data, kc, istep)
+    #plot_deuteron(wdir, data, kc, istep)
+    #plot_CC      (wdir, data, kc, istep)
+    #plot_A3      (wdir, data, kc, istep)
 
 
 
