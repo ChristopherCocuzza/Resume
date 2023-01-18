@@ -3,7 +3,7 @@
 
 **Diffpack**
 
-This code example is the basis of all of my projects.
+This code example is the basis of many of my projects.
 It is used to extract functions that describe the internal structure of protons and neutrons.
 We model this internal structure, calculate its relation to experimental measurements, and perform a $\chi^2$ minimization to match our model to the experimental data.
 
