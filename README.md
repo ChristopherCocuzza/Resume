@@ -1,7 +1,7 @@
 # Code Examples (in progress)
 
 
-**Diffpack**
+## **Diffpack**
 
 This code example is the basis of many of my projects.
 It is used to extract functions that describe the internal structure of protons and neutrons.
@@ -15,7 +15,7 @@ It consists of the following modules:
 * <ins>tools</ins>: This module contains tools used elsewhere, including parallelization and reading Excel files
 
 
-**analysis**
+## **analysis**
 
 This directory contains the code used to submit the $\chi^2$ minimizations and analyze them afterwards.  It contains the following folders:
 * <ins>inputs</ins>: Contains input files that specify the theory, model, experimental, and parameterization inputs for each $\chi^2$ minimization
