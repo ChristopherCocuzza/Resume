@@ -17,6 +17,8 @@ It consists of the following modules:
 
 **analysis**
 
+![plot](./analysis/plots/seaquest/gallery/PDFs.png)
+
 ![plot](./analysis/plots/star/gallery/spin.png)
 
 
