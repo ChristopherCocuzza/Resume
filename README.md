@@ -19,6 +19,7 @@ It consists of the following modules:
 
 ![image info][analysis/plots/star/gallery/spin.png]
 
+![title][analysis/plots/star/gallery/spin.png]
 
 
 
