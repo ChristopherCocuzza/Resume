@@ -18,7 +18,7 @@ It consists of the following modules:
 **analysis**
 
 
-![plot](./analysis/plots/thesis/gallery/WZboson.png)
+![plot](./analysis/plots/thesis/gallery/lepton-asym.png)
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
