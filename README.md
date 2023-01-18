@@ -17,7 +17,7 @@ It consists of the following modules:
 
 **analysis**
 
-![plot][./analysis/plots/star/gallery/spin.png]
+![plot](./analysis/plots/star/gallery/spin.png)
 
 
 
