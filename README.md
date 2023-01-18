@@ -18,10 +18,10 @@ It consists of the following modules:
 **analysis**
 
 This directory contains the code used to submit the $\chi^2$ minimizations and analyze them afterwards.  It contains the following folders:
-* <u>inputs</u>: Contains input files that specify the theory, model, experimental, and parameterization inputs for each $\chi^2$ minimization
-* <u>results</u>:  Where the results are stored after the $\chi^2$ minimization
-* <u>analysis</u>: Contains code that allows one to analyze the resulting fit to experimental data as well as the extracted functions
-* <u>plots</u>:  Contains code used to visualize data and create figures ready for publication
+* <ins>inputs</ins>: Contains input files that specify the theory, model, experimental, and parameterization inputs for each $\chi^2$ minimization
+* <ins>results</ins>:  Where the results are stored after the $\chi^2$ minimization
+* <ins>analysis</ins>: Contains code that allows one to analyze the resulting fit to experimental data as well as the extracted functions
+* <ins>plots</ins>:  Contains code used to visualize data and create figures ready for publication
 
 Here are some example plots made in this directory:
 
