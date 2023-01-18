@@ -1,0 +1,78 @@
+JAM FITTER
+count = 2377
+elapsed time(mins)=100.111943
+shifts  = 1
+npts    = 571
+chi2    = 699.192726
+rchi2   = 7.244580
+nchi2   = 16.083448
+chi2tot = 722.520754
+dchi2(iter)  = 0.008723
+dchi2(local) = -0.000640
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):0.999987
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.003235
+pdf db-ub(1):-0.055653
+pdf db-ub(2):0.007954
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      25.19      14.19       2.29       0.00       0.68
+  10003   p              COMPASS    35      80.34      45.34       2.30       0.00       0.28
+  10004   p                  EMC    10       7.27      -2.73       0.73       0.17       0.02
+  10005   n               HERMES     5       9.81       4.81       1.96       0.38       0.04
+  10007   p               HERMES    16      22.52       6.52       1.41       1.48       0.33
+  10022   p           SLAC(E143)    39      62.18      23.18       1.59       0.00       6.82
+  10029   p           SLAC(E155)    59     136.11      77.11       2.31       0.00       6.36
+  10032   p          SLACE80E130    10      17.84       7.84       1.78       0.00       0.00
+  10035   p                  SMC     7      14.30       7.30       2.04       0.16       0.00
+  10036   p                  SMC    11      16.06       5.06       1.46       0.01       0.00
+  10001   d              COMPASS    11      20.87       9.87       1.90       0.00       0.25
+  10006   d               HERMES    16      27.02      11.02       1.69       4.32       0.68
+  10021   d           SLAC(E143)    39      75.47      36.47       1.94       0.00       0.27
+  10027   d           SLAC(E155)    59     103.98      44.98       1.76       0.00       0.17
+  10033   d                  SMC     7      17.96      10.96       2.57       0.00       0.00
+  10034   d                  SMC    11      33.96      22.96       3.09       0.56       0.00
+  10018   h           SLAC(E142)     4       5.04       1.04       1.26       0.00       0.01
+  10025   h           SLAC(E154)    15      22.16       7.16       1.48       0.17       0.18
+reaction: SU23
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10001 nan                   SR     1       0.01      -0.99       0.01       0.00       0.00
+  10002 nan                   SR     1       0.00      -1.00       0.00       0.00       0.00
+1       ppdf       db1 N   1.14578e-01
+2       ppdf       db1 d  -7.05259e-01
+3       ppdf       dp1 N  -4.28758e-01
+4       ppdf       dp1 a   5.09333e-01
+5       ppdf       dp1 b   7.29974e+00
+6       ppdf       dp1 c  -4.31735e+00
+7       ppdf       dp1 d   5.79126e+00
+8       ppdf        g1 N  -3.10521e-01
+9       ppdf        g1 a   2.46820e-01
+10       ppdf        g1 d  -4.82879e+00
+11       ppdf       sb1 N  -4.92208e-02
+12       ppdf       sb1 d  -2.53120e+00
+13       ppdf       ub1 N   3.00586e-02
+14       ppdf       ub1 d   1.09215e-01
+15       ppdf       up1 N   8.41891e-01
+16       ppdf       up1 a  -1.48905e-01
+17       ppdf       up1 b   3.70386e+00
+18       ppdf       up1 c  -1.24373e+00
+19       ppdf       up1 d   9.61753e+00
+20       norm      pidis      10002  9.50577e-01
+21       norm      pidis      10003  9.63086e-01
+22       norm      pidis      10004  1.01213e+00
+23       norm      pidis      10005  9.89528e-01
+24       norm      pidis      10007  1.02978e+00
+25       norm      pidis      10022  1.09664e+00
+26       norm      pidis      10029  1.19169e+00
+27       norm      pidis      10032  9.94745e-01
+28       norm      pidis      10006  9.58707e-01
+29       norm      pidis      10021  9.74652e-01
+30       norm      pidis      10001  1.03961e+00
+31       norm      pidis      10027  9.77305e-01
+32       norm      pidis      10018  9.96725e-01
+33       norm      pidis      10025  1.03195e+00

@@ -1,0 +1,56 @@
+JAM FITTER
+count = 7397
+elapsed time(mins)=7.314619
+shifts  = 1
+npts    = 120
+chi2    = 195.132466
+rchi2   = 0.000000
+nchi2   = 7.271055
+chi2tot = 202.403521
+dchi2(iter)  = 0.818618
+dchi2(local) = -0.004504
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000230
+pdf s-sb(1):-0.000000
+pdf s-sb(2):-0.011451
+pdf db-ub(1):0.023967
+pdf db-ub(2):0.008067
+
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   4000 91     ALEPH    hadron   19     20.41      1.41      1.07      0.00      0.60
+   4001 91    DELPHI    hadron    6     10.10      4.10      1.68      0.00      0.00
+   4002 91       SLD    hadron   15     17.85      2.85      1.19      0.00      1.67
+   4004 29       TPC    hadron   10     34.95     24.95      3.49      0.00      0.00
+   4005 91   OPAL(b)    hadron    6      7.80      1.80      1.30      0.00      0.00
+   4006 91   OPAL(c)    hadron    6      8.23      2.23      1.37      0.00      0.00
+   4007 91      OPAL    hadron    6      1.98     -4.02      0.33      0.00      0.00
+   4011 35     TASSO    hadron    8     29.72     21.72      3.71      0.00      2.87
+   4012 44     TASSO    hadron    8      9.46      1.46      1.18      0.00      1.43
+   4013 91 DELPHI(b)    hadron    6     18.54     12.54      3.09      0.00      0.00
+   4014 91    SLD(c)    hadron   15     16.38      1.38      1.09      0.00      0.23
+   4015 91    SLD(b)    hadron   15     19.71      4.71      1.31      0.00      0.46
+1   ffhadron        b1 N   7.14669e-02
+2   ffhadron        b1 a  -7.98849e-01
+3   ffhadron        b1 b   4.04745e+00
+4   ffhadron        c1 N   2.97911e-02
+5   ffhadron        c1 a   1.99952e+00
+6   ffhadron        c1 b   9.98417e+00
+7   ffhadron        g1 N   1.40374e-01
+8   ffhadron        g1 a  -1.80000e+00
+9   ffhadron        g1 b   9.16924e+00
+10   ffhadron        u1 N   9.99997e-01
+11   ffhadron        u1 a  -1.79474e+00
+12   ffhadron        u1 b   3.64475e+00
+13   ffhadron        u1 c  -5.06429e+00
+14   ffhadron        u1 d   7.65543e+00
+15   ffhadron       ub1 N   4.98481e-03
+16   ffhadron       ub1 b   2.58189e-19
+17       norm        sia       4000  1.00777e+00
+18       norm        sia       4002  1.01292e+00
+19       norm        sia       4011  9.23747e-01
+20       norm        sia       4012  9.46183e-01
+21       norm        sia       4014  1.00484e+00
+22       norm        sia       4015  1.00680e+00

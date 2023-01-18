@@ -1,0 +1,62 @@
+JAM FITTER
+count = 2046
+elapsed time(mins)=30.962290
+shifts  = 1
+npts    = 2680
+chi2    = 5666.162183
+rchi2   = 292.298582
+nchi2   = 28.245429
+chi2tot = 5986.706194
+dchi2(iter)  = 0.383200
+dchi2(local) = 0.000000
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000000
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.004842
+pdf db-ub(1):0.013175
+pdf db-ub(2):0.008261
+
+reaction: unpol DIS [nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2
+  10010   p       SLAC   218     481.02     263.02       0.00      11.99
+  10016   p      BCDMS   348     664.74     316.74      30.81       0.02
+  10020   p        NMC   273     692.24     419.24       8.44       2.74
+  10026   p       HERA   402    1016.37     614.37     138.03       0.00
+  10027   p       HERA    75     150.01      75.01      16.10       0.00
+  10028   p       HERA   259     483.17     224.17      10.92       0.00
+  10029   p       HERA   209     419.67     210.67      11.31       0.00
+  10030   p       HERA   159     391.05     232.05      23.46       0.00
+  10031   p       HERA    39      80.86      41.86       3.72       0.00
+  10032   p       HERA    42     101.75      59.75      27.23       0.00
+  10011   d       SLAC   228     431.26     203.26       0.00      11.83
+  10017   d      BCDMS   254     450.19     196.19      21.04       0.30
+  10021 d/p        NMC   174     303.82     129.82       1.24       1.36
+1        pdf       db1 N   1.88375e-02
+2        pdf       db1 a   6.65975e-02
+3        pdf       db1 b   1.33781e+01
+4        pdf       dv1 a  -5.85245e-02
+5        pdf       dv1 b   4.31807e+00
+6        pdf        g1 a  -5.09272e-01
+7        pdf        g1 b   1.10980e+01
+8        pdf        s1 a  -4.99999e-01
+9        pdf        s1 b   9.83312e+01
+10        pdf       sb1 N   4.92378e-03
+11        pdf       sb1 a   9.99962e-01
+12        pdf       sb1 b   3.60653e+00
+13        pdf      sea1 N   1.18359e-02
+14        pdf      sea1 a  -1.20664e+00
+15        pdf      sea1 b   1.02574e+01
+16        pdf       ub1 N   1.05762e-02
+17        pdf       ub1 a  -3.51427e-01
+18        pdf       ub1 b   1.42710e+01
+19        pdf       uv1 a  -7.47099e-02
+20        pdf       uv1 b   3.29282e+00
+21       norm       idis      10010  1.07271e+00
+22       norm       idis      10011  1.05848e+00
+23       norm       idis      10016  1.00417e+00
+24       norm       idis      10017  1.01638e+00
+25       norm       idis      10020  1.03311e+00
+26       norm       idis      10021  9.87854e-01

@@ -1,0 +1,75 @@
+JAM FITTER
+count = 983
+elapsed time(mins)=38.657602
+shifts  = 1
+npts    = 365
+chi2    = 693.664917
+rchi2   = 4.350218
+nchi2   = 4.940274
+chi2tot = 702.955408
+dchi2(iter)  = 0.000000
+dchi2(local) = -inf
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.002060
+pdf s-sb(1):-0.000000
+pdf s-sb(2):-0.006415
+pdf db-ub(1):-1226119.355297
+pdf db-ub(2):0.007458
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      35.75      24.75       3.25       0.00       0.07
+  10003   p              COMPASS    35      77.63      42.63       2.22       0.00       0.03
+  10004   p                  EMC    10       2.47      -7.53       0.25       0.14       0.20
+  10005   n               HERMES     5       9.71       4.71       1.94       0.16       0.01
+  10007   p               HERMES    16      13.58      -2.42       0.85       2.85       0.12
+  10022   p           SLAC(E143)    39      50.49      11.49       1.29       0.00       1.49
+  10029   p           SLAC(E155)    59     158.55      99.55       2.69       0.00       1.77
+  10032   p          SLACE80E130    10      10.05       0.05       1.01       0.76       0.34
+  10035   p                  SMC     7      14.48       7.48       2.07       0.01       0.00
+  10036   p                  SMC    11      14.34       3.34       1.30       0.21       0.00
+  10001   d              COMPASS    11      13.02       2.02       1.18       0.00       0.06
+  10006   d               HERMES    16      34.11      18.11       2.13       0.04       0.72
+  10021   d           SLAC(E143)    39      93.19      54.19       2.39       0.00       0.04
+  10027   d           SLAC(E155)    59     101.87      42.87       1.73       0.00       0.00
+  10033   d                  SMC     7       9.65       2.65       1.38       0.00       0.00
+  10034   d                  SMC    11      26.80      15.80       2.44       0.06       0.00
+  10018   h           SLAC(E142)     4       7.82       3.82       1.96       0.00       0.05
+  10025   h           SLAC(E154)    15      20.15       5.15       1.34       0.12       0.04
+1       ppdf       dv1 N  -5.43411e-01
+2       ppdf       dv1 a  -5.87049e-01
+3       ppdf       dv1 b   3.85957e+00
+4       ppdf       dv1 d   1.00000e+01
+5       ppdf        g1 N   2.05210e-01
+6       ppdf        g1 a   5.00000e+00
+7       ppdf        g1 b   1.48359e+01
+8       ppdf        g1 d   1.00000e+01
+9       ppdf        s1 N   4.07876e+00
+10       ppdf        s1 a   4.96872e+00
+11       ppdf        s1 b   2.13760e+01
+12       ppdf        s1 d  -1.12266e-01
+13       ppdf      sea1 N  -4.06291e+00
+14       ppdf      sea1 a   4.94325e+00
+15       ppdf      sea1 b   2.18258e+01
+16       ppdf      sea1 d   6.60183e-01
+17       ppdf       uv1 N   7.67683e-01
+18       ppdf       uv1 a  -9.83640e-02
+19       ppdf       uv1 b   3.33728e+00
+20       ppdf       uv1 d   6.53270e+00
+21       norm      pidis      10002  9.83569e-01
+22       norm      pidis      10003  9.88385e-01
+23       norm      pidis      10004  9.57525e-01
+24       norm      pidis      10005  9.94338e-01
+25       norm      pidis      10007  1.01812e+00
+26       norm      pidis      10022  1.04515e+00
+27       norm      pidis      10029  1.10114e+00
+28       norm      pidis      10032  9.51437e-01
+29       norm      pidis      10006  9.57680e-01
+30       norm      pidis      10021  9.89770e-01
+31       norm      pidis      10001  1.01906e+00
+32       norm      pidis      10027  9.96461e-01
+33       norm      pidis      10018  9.93014e-01
+34       norm      pidis      10025  9.85786e-01

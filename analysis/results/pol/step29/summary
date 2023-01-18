@@ -1,0 +1,221 @@
+JAM FITTER
+count = 14535
+elapsed time(mins)=914.828732
+shifts  = 1
+npts    = 930
+chi2    = 1555.859486
+rchi2   = 6.549171
+nchi2   = 84.141604
+chi2tot = 1646.550261
+dchi2(iter)  = 0.387233
+dchi2(local) = -0.464668
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000799
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.006825
+pdf db-ub(1):0.155199
+pdf db-ub(2):0.009067
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      34.53      23.53       3.14       0.00       0.49
+  10003   p              COMPASS    35      74.95      39.95       2.14       0.00       0.10
+  10004   p                  EMC    10       7.31      -2.69       0.73       1.57       0.78
+  10005   n               HERMES     5       0.58      -4.42       0.12       0.18       0.00
+  10007   p               HERMES    16      17.59       1.59       1.10       0.91       0.09
+  10022   p           SLAC(E143)    39      88.09      49.09       2.26       0.00       0.90
+  10029   p           SLAC(E155)    59     116.95      57.95       1.98       0.00       1.96
+  10032   p          SLACE80E130    10      26.61      16.61       2.66       0.01       0.05
+  10035   p                  SMC     7       7.72       0.72       1.10       0.32       0.00
+  10036   p                  SMC    11      12.61       1.61       1.15       0.17       0.00
+  10001   d              COMPASS    11      10.78      -0.22       0.98       0.00       0.18
+  10006   d               HERMES    16      32.40      16.40       2.03       0.82       0.07
+  10021   d           SLAC(E143)    39      69.04      30.04       1.77       0.00       1.76
+  10027   d           SLAC(E155)    59      94.14      35.14       1.60       0.00       0.59
+  10033   d                  SMC     7       5.46      -1.54       0.78       0.00       0.00
+  10034   d                  SMC    11      33.22      22.22       3.02       2.51       0.00
+  10018   h           SLAC(E142)     4       0.92      -3.08       0.23       0.00       0.00
+  10025   h           SLAC(E154)    15      17.03       2.03       1.14       0.07       0.00
+reaction: pol SIDIS
+filters: Q2>1.690000
+filters: W2>10.000000
+filters: Z>0.2 and Z<0.8
+    idx       tar  had         col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+  20004         p  pi+      HERMES    7     25.98     18.98      3.71      0.00      0.00
+  20005         p  pi-      HERMES    7      2.67     -4.33      0.38      0.00      0.00
+  20008         d  pi+      HERMES    7     14.19      7.19      2.03      0.00      0.00
+  20009         d  pi-      HERMES    7     18.15     11.15      2.59      0.00      0.00
+  20012         d   K+      HERMES    7      7.93      0.93      1.13      0.00      0.00
+  20013         d   K-      HERMES    7      4.05     -2.95      0.58      0.00      0.00
+  20014         d Ksum      HERMES    7     15.52      8.52      2.22      0.00      0.00
+  20017         p  pi+     COMPASS   10     17.73      7.73      1.77      0.00      0.00
+  20018         p  pi-     COMPASS   10     17.53      7.53      1.75      0.00      0.00
+  20019         p   K+     COMPASS   10     13.86      3.86      1.39      0.00      0.00
+  20020         p   K-     COMPASS   10      8.64     -1.36      0.86      0.00      0.00
+  20021         d  pi+     COMPASS    8     11.16      3.16      1.40      0.00      0.00
+  20022         d  pi-     COMPASS    8     12.78      4.78      1.60      0.00      0.00
+  20025         d   K+     COMPASS    8      9.54      1.54      1.19      0.00      0.00
+  20026         d   K-     COMPASS    8      4.20     -3.80      0.52      0.00      0.00
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   1001 12     TASSO      pion    1      1.23      0.23      1.23      0.00      0.38
+   1002 14     TASSO      pion    4     24.20     20.20      6.05      0.00      0.23
+   1003 22     TASSO      pion    4      3.04     -0.96      0.76      0.00      0.56
+   1005 34     TASSO      pion    5     10.71      5.71      2.14      0.00      0.03
+   1006 44     TASSO      pion    3     13.34     10.34      4.45      0.00      0.05
+   1007 29       TPC      pion    3     10.86      7.86      3.62      0.00      0.00
+   1008 29       TPC      pion    9      5.49     -3.51      0.61      0.00      0.00
+   1010 29    TPC(c)      pion    3      6.27      3.27      2.09      0.00      0.00
+   1011 29    TPC(b)      pion    3      6.48      3.48      2.16      0.00      0.00
+   1013 58     TOPAZ      pion    1      0.47     -0.53      0.47      0.00      0.00
+   1014 91       SLD      pion   15     29.62     14.62      1.97      0.00      0.55
+   1016 91    SLD(c)      pion   15     24.91      9.91      1.66      0.00      0.07
+   1017 91    SLD(b)      pion   15      8.30     -6.70      0.55      0.00      0.01
+   1018 91     ALEPH      pion    5      5.27      0.27      1.05      0.00      0.10
+   1019 91      OPAL      pion    6     17.43     11.43      2.91      0.00      0.00
+   1023 91   OPAL(c)      pion    5     10.00      5.00      2.00      0.00      5.77
+   1024 91   OPAL(b)      pion    5      8.25      3.25      1.65      0.00      5.79
+   1025 91    DELPHI      pion    6     21.90     15.90      3.65      0.00      0.00
+   1027 91 DELPHI(b)      pion    6     13.14      7.14      2.19      0.00      0.00
+   1028 11     BABAR      pion   27     20.83     -6.17      0.77      0.00      2.17
+   1029 11     BELLE      pion   70     99.58     29.58      1.42      0.00     36.79
+   1030 10     ARGUS      pion   20     51.52     31.52      2.58      0.00      3.79
+   2002 14     TASSO      kaon    2      2.83      0.83      1.41      0.00      0.05
+   2003 22     TASSO      kaon    2      0.36     -1.64      0.18      0.00      0.00
+   2005 34     TASSO      kaon    2      3.42      1.42      1.71      0.00      0.02
+   2007 29       TPC      kaon    2      2.44      0.44      1.22      0.00      0.00
+   2008 29       TPC      kaon    7      6.14     -0.86      0.88      0.00      0.00
+   2013 58     TOPAZ      kaon    1      3.57      2.57      3.57      0.00      0.00
+   2014 91       SLD      kaon   15     22.19      7.19      1.48      0.00      0.39
+   2016 91    SLD(c)      kaon   15     38.26     23.26      2.55      0.00      0.09
+   2017 91    SLD(b)      kaon   15     32.04     17.04      2.14      0.00      0.71
+   2018 91     ALEPH      kaon    5      2.42     -2.58      0.48      0.00      2.91
+   2019 91      OPAL      kaon    6      1.82     -4.18      0.30      0.00      0.00
+   2023 91   OPAL(c)      kaon    5     12.53      7.53      2.51      0.00      4.95
+   2024 91   OPAL(b)      kaon    5     11.50      6.50      2.30      0.00     11.13
+   2025 91    DELPHI      kaon    6     21.65     15.65      3.61      0.00      0.00
+   2027 91 DELPHI(b)      kaon    6     12.19      6.19      2.03      0.00      0.00
+   2028 11     BABAR      kaon   28     27.61     -0.39      0.99      0.00      0.07
+   2029 11     BELLE      kaon   70     79.06      9.06      1.13      0.00      0.00
+   2030 10     ARGUS      kaon   15     42.77     27.77      2.85      0.00      0.53
+   2031 91    DELPHI      kaon    6      6.35      0.35      1.06      0.00      0.00
+1       ppdf       db1 N   6.76848e+00
+2       ppdf       db1 a  -8.46877e-01
+3       ppdf       db1 b   1.13338e-01
+4       ppdf       db1 d   5.87115e+00
+5       ppdf       dv1 N  -5.19789e-01
+6       ppdf       dv1 a  -4.07527e-01
+7       ppdf       dv1 b   2.42447e+00
+8       ppdf       dv1 d   9.99994e+00
+9       ppdf        g1 N  -1.19720e-02
+10       ppdf        g1 a   4.52013e+00
+11       ppdf        g1 b   6.64625e+00
+12       ppdf        g1 d  -2.41517e+00
+13       ppdf        s1 N   8.22982e+00
+14       ppdf        s1 a  -9.19285e-01
+15       ppdf        s1 b   1.15629e-01
+16       ppdf        s1 d   8.11977e+00
+17       ppdf       sb1 N   5.42907e+00
+18       ppdf       sb1 a  -6.82951e-01
+19       ppdf       sb1 b   5.25256e-01
+20       ppdf       sb1 d   3.77934e+00
+21       ppdf      sea1 N  -6.41205e+00
+22       ppdf      sea1 a  -8.18290e-01
+23       ppdf      sea1 b   1.10589e-01
+24       ppdf      sea1 d   4.66915e+00
+25       ppdf       ub1 N   6.36380e+00
+26       ppdf       ub1 a  -7.86186e-01
+27       ppdf       ub1 b   4.69034e-02
+28       ppdf       ub1 d   3.44818e+00
+29       ppdf       uv1 N   6.15500e-01
+30       ppdf       uv1 a   3.10903e-01
+31       ppdf       uv1 b   4.64477e+00
+32       ppdf       uv1 d   9.99256e+00
+33     ffpion        b1 N   7.33976e-01
+34     ffpion        b1 a  -1.80000e+00
+35     ffpion        b1 b   3.68276e+00
+36     ffpion        c1 N   9.99943e-01
+37     ffpion        c1 a  -1.72754e+00
+38     ffpion        c1 b   3.27415e+00
+39     ffpion        d1 N   4.05089e-02
+40     ffpion        d1 a   6.56743e+00
+41     ffpion        d1 b   1.09504e+01
+42     ffpion        d2 N   1.20213e-01
+43     ffpion        d2 a   4.12856e+00
+44     ffpion        d2 b   2.29973e+01
+45     ffpion        g1 N   1.54383e-01
+46     ffpion        g1 a   5.14517e+00
+47     ffpion        g1 b   2.99965e+01
+48     ffpion        s1 N   5.49443e-01
+49     ffpion        s1 a  -1.22002e+00
+50     ffpion        s1 b   7.02808e+00
+51     ffpion        u1 N   1.80742e-01
+52     ffpion        u1 a   3.80806e-01
+53     ffpion        u1 b   1.97573e+00
+54     ffpion        u2 N   7.48500e-02
+55     ffpion        u2 a   7.88272e+00
+56     ffpion        u2 b   2.13465e+01
+57     ffkaon        b1 N   7.71590e-02
+58     ffkaon        b1 a  -7.02672e-01
+59     ffkaon        b1 b   6.65784e+00
+60     ffkaon        c1 N   8.05925e-02
+61     ffkaon        c1 a   5.48546e-01
+62     ffkaon        c1 b   5.35324e+00
+63     ffkaon        d1 N   5.32325e-03
+64     ffkaon        d1 a   1.00000e+01
+65     ffkaon        d1 b   6.39555e+00
+66     ffkaon        g1 N   1.70354e-02
+67     ffkaon        g1 a   2.55302e+00
+68     ffkaon        g1 b   2.83828e+01
+69     ffkaon        s1 N   1.23280e-33
+70     ffkaon        s1 a   8.74180e+00
+71     ffkaon        s1 b   5.44558e+00
+72     ffkaon       sb1 N   3.65263e-01
+73     ffkaon       sb1 a  -8.32620e-01
+74     ffkaon       sb1 b   1.93372e+00
+75     ffkaon        u1 N   2.76207e-01
+76     ffkaon        u1 a  -1.37537e+00
+77     ffkaon        u1 b   1.07796e+00
+78       norm      pidis      10002  9.58074e-01
+79       norm      pidis      10003  9.77708e-01
+80       norm      pidis      10004  9.15423e-01
+81       norm      pidis      10005  1.00230e+00
+82       norm      pidis      10007  1.01561e+00
+83       norm      pidis      10022  1.03517e+00
+84       norm      pidis      10029  1.10650e+00
+85       norm      pidis      10032  9.81442e-01
+86       norm      pidis      10006  9.86339e-01
+87       norm      pidis      10021  9.34995e-01
+88       norm      pidis      10001  1.03364e+00
+89       norm      pidis      10027  9.57713e-01
+90       norm      pidis      10018  9.99869e-01
+91       norm      pidis      10025  9.97396e-01
+92       norm        sia       1001  1.12395e+00
+93       norm        sia       1002  9.59330e-01
+94       norm        sia       1003  1.04722e+00
+95       norm        sia       1005  9.88912e-01
+96       norm        sia       1006  9.86888e-01
+97       norm        sia       1014  9.92592e-01
+98       norm        sia       1018  9.90564e-01
+99       norm        sia       1028  1.01443e+00
+100       norm        sia       1029  9.15086e-01
+101       norm        sia       1030  1.03507e+00
+102       norm        sia       1016  9.97425e-01
+103       norm        sia       1017  9.99115e-01
+104       norm        sia       1023  1.24024e+00
+105       norm        sia       1024  1.24073e+00
+106       norm        sia       2030  1.01308e+00
+107       norm        sia       2028  9.97356e-01
+108       norm        sia       2002  9.80583e-01
+109       norm        sia       2003  1.00019e+00
+110       norm        sia       2005  9.91106e-01
+111       norm        sia       2014  9.93742e-01
+112       norm        sia       2018  9.48820e-01
+113       norm        sia       2016  9.96969e-01
+114       norm        sia       2017  9.91553e-01
+115       norm        sia       2023  1.22256e+00
+116       norm        sia       2024  1.33364e+00

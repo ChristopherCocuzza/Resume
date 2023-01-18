@@ -1,0 +1,87 @@
+JAM FITTER
+count = 7353
+elapsed time(mins)=327.854653
+shifts  = 1
+npts    = 365
+chi2    = 655.003553
+rchi2   = 4.432613
+nchi2   = 11.393392
+chi2tot = 670.829558
+dchi2(iter)  = 0.044879
+dchi2(local) = -0.000520
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.003179
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.002943
+pdf db-ub(1):-0.008578
+pdf db-ub(2):0.007988
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      32.42      21.42       2.95       0.00       0.01
+  10003   p              COMPASS    35      44.20       9.20       1.26       0.00       0.29
+  10004   p                  EMC    10       7.79      -2.21       0.78       1.07       0.00
+  10005   n               HERMES     5       3.97      -1.03       0.79       0.67       0.05
+  10007   p               HERMES    16      25.08       9.08       1.57       1.59       0.02
+  10022   p           SLAC(E143)    39      55.44      16.44       1.42       0.00       2.73
+  10029   p           SLAC(E155)    59     107.47      48.47       1.82       0.00       4.91
+  10032   p          SLACE80E130    10      12.57       2.57       1.26       0.19       0.14
+  10035   p                  SMC     7      17.58      10.58       2.51       0.43       0.00
+  10036   p                  SMC    11      14.83       3.83       1.35       0.05       0.00
+  10001   d              COMPASS    11       6.03      -4.97       0.55       0.00       0.02
+  10006   d               HERMES    16      25.00       9.00       1.56       0.37       0.02
+  10021   d           SLAC(E143)    39     127.62      88.62       3.27       0.00       3.05
+  10027   d           SLAC(E155)    59     113.86      54.86       1.93       0.00       0.02
+  10033   d                  SMC     7       7.30       0.30       1.04       0.01       0.00
+  10034   d                  SMC    11      23.75      12.75       2.16       0.04       0.00
+  10018   h           SLAC(E142)     4      12.53       8.53       3.13       0.00       0.13
+  10025   h           SLAC(E154)    15      17.57       2.57       1.17       0.00       0.00
+1       ppdf       db1 N   1.88382e+00
+2       ppdf       db1 a   3.86541e-01
+3       ppdf       db1 b   7.09692e+00
+4       ppdf       db1 d   6.29086e+00
+5       ppdf       dv1 N  -5.43585e+00
+6       ppdf       dv1 a   2.85843e-01
+7       ppdf       dv1 b   5.12337e+00
+8       ppdf       dv1 d   2.66001e+00
+9       ppdf        g1 N  -2.91621e-01
+10       ppdf        g1 a   5.00000e+00
+11       ppdf        g1 b   1.06093e-18
+12       ppdf        g1 d   1.00000e+01
+13       ppdf        s1 N   2.46351e+00
+14       ppdf        s1 a   2.64442e-01
+15       ppdf        s1 b   2.57196e+00
+16       ppdf        s1 d  -3.12515e-01
+17       ppdf       sb1 N   2.46394e+00
+18       ppdf       sb1 a   2.65134e-01
+19       ppdf       sb1 b   2.56414e+00
+20       ppdf       sb1 d  -2.98937e-01
+21       ppdf      sea1 N   1.22995e-01
+22       ppdf      sea1 a   4.99978e+00
+23       ppdf      sea1 b   1.07772e+01
+24       ppdf      sea1 d   8.74698e+00
+25       ppdf       ub1 N   3.74074e+00
+26       ppdf       ub1 a   4.69648e+00
+27       ppdf       ub1 b   1.25967e+01
+28       ppdf       ub1 d  -1.69609e+00
+29       ppdf       uv1 N  -7.86704e+00
+30       ppdf       uv1 a   4.34172e+00
+31       ppdf       uv1 b   1.56617e+01
+32       ppdf       uv1 d   8.27713e+00
+33       norm      pidis      10002  1.00673e+00
+34       norm      pidis      10003  1.03789e+00
+35       norm      pidis      10004  1.00242e+00
+36       norm      pidis      10005  9.87796e-01
+37       norm      pidis      10007  1.00642e+00
+38       norm      pidis      10022  1.06108e+00
+39       norm      pidis      10029  1.16839e+00
+40       norm      pidis      10032  9.68687e-01
+41       norm      pidis      10006  9.92259e-01
+42       norm      pidis      10021  9.14451e-01
+43       norm      pidis      10001  9.89340e-01
+44       norm      pidis      10027  1.00776e+00
+45       norm      pidis      10018  9.88838e-01
+46       norm      pidis      10025  9.94848e-01

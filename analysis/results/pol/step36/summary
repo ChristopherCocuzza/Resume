@@ -1,0 +1,65 @@
+JAM FITTER
+count = 936
+elapsed time(mins)=88.879327
+shifts  = 1
+npts    = 618
+chi2    = 1410.916244
+rchi2   = 0.000000
+nchi2   = 98.179744
+chi2tot = 1509.095988
+dchi2(iter)  = inf
+dchi2(local) = -0.609005
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000090
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.003944
+pdf db-ub(1):0.006725
+pdf db-ub(2):0.008459
+
+reaction: unpol SIDIS
+filters: Q2>1.690000
+filters: W2>3.000000
+filters: Z>0.2 and Z<0.8
+    idx       tar  had         col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   3000  deuteron   h+     COMPASS  249    607.04    358.04      2.44      0.00     25.91
+   3001  deuteron   h-     COMPASS  249    518.84    269.84      2.08      0.00     46.93
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   4000 91     ALEPH    hadron   19     34.56     15.56      1.82      0.00      4.09
+   4001 91    DELPHI    hadron    6     10.16      4.16      1.69      0.00      0.00
+   4002 91       SLD    hadron   15     31.12     16.12      2.07      0.00      9.51
+   4004 29       TPC    hadron   10     27.99     17.99      2.80      0.00      0.00
+   4005 91   OPAL(b)    hadron    6      3.25     -2.75      0.54      0.00      0.00
+   4006 91   OPAL(c)    hadron    6      8.24      2.24      1.37      0.00      0.00
+   4007 91      OPAL    hadron    6     23.05     17.05      3.84      0.00      0.00
+   4011 35     TASSO    hadron    8     48.08     40.08      6.01      0.00      1.36
+   4012 44     TASSO    hadron    8      6.76     -1.24      0.84      0.00      1.77
+   4013 91 DELPHI(b)    hadron    6     12.22      6.22      2.04      0.00      0.00
+   4014 91    SLD(c)    hadron   15     32.40     17.40      2.16      0.00      1.76
+   4015 91    SLD(b)    hadron   15     47.21     32.21      3.15      0.00      6.85
+1   ffhadron        b1 N   1.06201e-01
+2   ffhadron        b1 a  -1.20276e+00
+3   ffhadron        b1 b   3.37692e+00
+4   ffhadron        c1 N   5.39363e-02
+5   ffhadron        c1 a   5.90399e-01
+6   ffhadron        c1 b   7.33072e+00
+7   ffhadron        g1 N   1.00000e+00
+8   ffhadron        g1 a  -1.68043e+00
+9   ffhadron        g1 b   1.00000e+01
+10   ffhadron        u1 N   1.02014e-33
+11   ffhadron        u1 a  -1.00461e+00
+12   ffhadron        u1 b   9.99998e+00
+13   ffhadron        u1 c   2.69426e+00
+14   ffhadron        u1 d  -3.10645e+00
+15   ffhadron       ub1 N   5.18470e-02
+16   ffhadron       ub1 b   1.62042e+00
+17       norm        sia       4000  9.79784e-01
+18       norm        sia       4002  9.69157e-01
+19       norm        sia       4011  9.47567e-01
+20       norm        sia       4012  9.40108e-01
+21       norm        sia       4014  1.01328e+00
+22       norm        sia       4015  1.02617e+00
+23       norm      sidis       3000  1.20437e+00
+24       norm      sidis       3001  1.27495e+00

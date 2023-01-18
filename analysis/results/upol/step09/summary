@@ -1,0 +1,95 @@
+JAM FITTER
+count = 10293
+elapsed time(mins)=609.861176
+shifts  = 1
+npts    = 4118
+chi2    = 8655.370687
+rchi2   = 206.115858
+nchi2   = 17.131570
+chi2tot = 8878.618115
+dchi2(iter)  = 0.137196
+dchi2(local) = -0.046888
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000000
+pdf s-sb(1):-0.000000
+pdf s-sb(2):0.005916
+pdf db-ub(1):0.127503
+pdf db-ub(2):0.009887
+
+reaction: unpol DIS [nuc=True (deuterium:Paris, helium:KPSV), tmc=AOT, ht=mult, offshell=False]
+filters: Q2>1.690000
+filters: W2>3.000000
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2
+  10010   p       SLAC   564    1044.38     480.38       0.00       2.78
+  10016   p      BCDMS   351     740.16     389.16      15.07       0.06
+  10020   p        NMC   275     733.44     458.44      15.18       0.64
+  10003   p       JLab   136     359.03     223.03       0.00       7.25
+  10026   p       HERA   402     975.80     573.80     109.00       0.00
+  10027   p       HERA    75     126.88      51.88       6.02       0.00
+  10028   p       HERA   259     490.82     231.82       6.96       0.00
+  10029   p       HERA   209     429.65     220.65      18.91       0.00
+  10030   p       HERA   159     408.09     249.09      12.48       0.00
+  10031   p       HERA    39      92.58      53.58       3.10       0.00
+  10032   p       HERA    42      78.75      36.75      10.47       0.00
+  10011   d       SLAC   582    1067.58     485.58       0.00       3.94
+  10017   d      BCDMS   254     570.51     316.51       7.35       0.10
+  10021 d/p        NMC   189     328.61     139.61       1.47       0.04
+  10002   d       JLab   136     241.23     105.23       0.00       0.13
+  10033 n/d      BONUS   191     428.97     237.97       0.00       0.01
+reaction: dy
+    idx       tar       col npts      chi2 chi2-npts     rchi2     nchi2
+  10001        pp      E866  184    422.12    238.12      0.00      1.97
+  20001     pd/pp      E866   15     16.31      1.31      0.00      0.20
+reaction: zrap
+    idx tar             col  npts       chi2  chi2-npts      rchi2      nchi2
+   1000 ppb          CDF(Z)    28      46.27      18.27       0.07       0.01
+   1001 ppb           D0(Z)    28      54.19      26.19       0.03       0.00
+1        pdf       db1 N   1.40241e-02
+2        pdf       db1 a   2.20417e-01
+3        pdf       db1 b   1.58140e+01
+4        pdf       db1 c  -3.45321e+00
+5        pdf       db1 d   5.54977e+00
+6        pdf       dv1 a  -2.09016e-01
+7        pdf       dv1 b   5.26034e+00
+8        pdf       dv1 c  -1.16219e+00
+9        pdf       dv1 d   4.31784e+00
+10        pdf        g1 a  -1.18883e-01
+11        pdf        g1 b   1.11256e+01
+12        pdf        g1 c  -4.18590e+00
+13        pdf        g1 d   5.27711e+00
+14        pdf        s1 a   8.84254e-01
+15        pdf        s1 b   4.20355e+01
+16        pdf       sb1 N   1.83945e-03
+17        pdf       sb1 a  -8.99996e-01
+18        pdf       sb1 b   8.95197e+00
+19        pdf      sea1 N   2.51089e-02
+20        pdf      sea1 a  -1.21498e+00
+21        pdf      sea1 b   4.15151e+00
+22        pdf      sea2 N   7.29054e-03
+23        pdf      sea2 a  -1.00005e+00
+24        pdf      sea2 b   2.55215e-01
+25        pdf       ub1 N   4.13748e-03
+26        pdf       ub1 a   1.84968e-01
+27        pdf       ub1 b   1.80163e+01
+28        pdf       ub1 c   1.10633e+00
+29        pdf       ub1 d  -6.68048e+00
+30        pdf       uv1 a  -4.24147e-01
+31        pdf       uv1 b   3.47369e+00
+32        pdf       uv1 c   3.74396e+00
+33        pdf       uv1 d   2.02768e+00
+34        ht4       F2p N  -6.02769e-01
+35        ht4       F2p a   2.51525e+00
+36        ht4       F2p d  -5.73295e+00
+37       norm       idis      10002  1.00627e+00
+38       norm       idis      10003  1.04711e+00
+39       norm       idis      10010  1.03500e+00
+40       norm       idis      10011  1.03374e+00
+41       norm       idis      10016  9.92366e-01
+42       norm       idis      10017  1.00954e+00
+43       norm       idis      10020  1.01604e+00
+44       norm       idis      10021  9.98021e-01
+45       norm       idis      10033  9.94746e-01
+46       norm         dy      10001  1.09833e+00
+47       norm         dy      20001  1.00414e+00
+48       norm       zrap       1000  1.00593e+00

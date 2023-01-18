@@ -1,0 +1,75 @@
+JAM FITTER
+count = 5061
+elapsed time(mins)=179.507092
+shifts  = 1
+npts    = 367
+chi2    = 691.769409
+rchi2   = 6.289979
+nchi2   = 4.967064
+chi2tot = 703.026452
+dchi2(iter)  = 0.012641
+dchi2(local) = -0.000328
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):0.999962
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.009773
+pdf db-ub(1):0.054599
+pdf db-ub(2):0.008258
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      25.62      14.62       2.33       0.00       0.48
+  10003   p              COMPASS    35      69.57      34.57       1.99       0.00       0.02
+  10004   p                  EMC    10      16.94       6.94       1.69       0.46       0.95
+  10005   n               HERMES     5       2.21      -2.79       0.44       0.01       0.01
+  10007   p               HERMES    16      21.15       5.15       1.32       0.79       0.06
+  10022   p           SLAC(E143)    39      75.58      36.58       1.94       0.00       0.80
+  10029   p           SLAC(E155)    59     142.00      83.00       2.41       0.00       1.81
+  10032   p          SLACE80E130    10      19.18       9.18       1.92       0.02       0.28
+  10035   p                  SMC     7      18.48      11.48       2.64       0.20       0.00
+  10036   p                  SMC    11      13.20       2.20       1.20       0.69       0.00
+  10001   d              COMPASS    11       6.26      -4.74       0.57       0.00       0.00
+  10006   d               HERMES    16      17.92       1.92       1.12       1.41       0.13
+  10021   d           SLAC(E143)    39      64.24      25.24       1.65       0.00       0.02
+  10027   d           SLAC(E155)    59     144.73      85.73       2.45       0.00       0.29
+  10033   d                  SMC     7       7.93       0.93       1.13       0.00       0.00
+  10034   d                  SMC    11      30.72      19.72       2.79       2.65       0.00
+  10018   h           SLAC(E142)     4       3.88      -0.12       0.97       0.00       0.05
+  10025   h           SLAC(E154)    15      10.93      -4.07       0.73       0.05       0.05
+reaction: SU23
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  20001 nan                JAM17     1       1.22       0.22       1.22       0.00       0.00
+  20002 nan                JAM17     1       0.00      -1.00       0.00       0.00       0.00
+1       ppdf       dv1 N  -4.82022e-01
+2       ppdf       dv1 a  -3.70499e-01
+3       ppdf       dv1 b   3.58626e+00
+4       ppdf        g1 N   1.14291e-02
+5       ppdf        g1 a  -9.87124e-01
+6       ppdf        g1 b   9.13828e-01
+7       ppdf        g1 d  -1.51552e+02
+8       ppdf        s1 N   2.38339e-01
+9       ppdf        s1 a  -9.89926e-01
+10       ppdf        s1 b   2.99992e+01
+11       ppdf      sea1 N  -5.31043e-03
+12       ppdf      sea1 a   3.54853e+00
+13       ppdf      sea1 b   2.98999e+01
+14       ppdf       uv1 N   7.60715e-01
+15       ppdf       uv1 a   4.02032e-01
+16       ppdf       uv1 b   3.18504e+00
+17       norm      pidis      10002  9.58463e-01
+18       norm      pidis      10003  9.89690e-01
+19       norm      pidis      10004  9.06553e-01
+20       norm      pidis      10005  9.94725e-01
+21       norm      pidis      10007  9.87489e-01
+22       norm      pidis      10022  1.03319e+00
+23       norm      pidis      10029  1.10237e+00
+24       norm      pidis      10032  9.55731e-01
+25       norm      pidis      10006  9.82079e-01
+26       norm      pidis      10021  9.93397e-01
+27       norm      pidis      10001  1.00355e+00
+28       norm      pidis      10027  9.70254e-01
+29       norm      pidis      10018  9.92902e-01
+30       norm      pidis      10025  9.82594e-01

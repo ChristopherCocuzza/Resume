@@ -1,0 +1,144 @@
+JAM FITTER
+count = 7915
+elapsed time(mins)=739.511140
+shifts  = 1
+npts    = 697
+chi2    = 1335.726768
+rchi2   = 6.160635
+nchi2   = 24.771395
+chi2tot = 1366.658798
+dchi2(iter)  = 0.052427
+dchi2(local) = -0.026202
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.002734
+pdf s-sb(1):0.000000
+pdf s-sb(2):0.004952
+pdf db-ub(1):0.242629
+pdf db-ub(2):0.007663
+
+reaction: pol DIS [ww=False, nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, twist3=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar                  col  npts       chi2  chi2-npts  chi2/npts      rchi2      nchi2
+  10002   p              COMPASS    11      21.18      10.18       1.93       0.00       1.70
+  10003   p              COMPASS    35      55.15      20.15       1.58       0.00       0.20
+  10004   p                  EMC    10       6.76      -3.24       0.68       0.07       0.39
+  10005   n               HERMES     5       5.74       0.74       1.15       0.03       0.01
+  10007   p               HERMES    16      21.35       5.35       1.33       2.70       0.03
+  10022   p           SLAC(E143)    39      65.31      26.31       1.67       0.00       1.62
+  10029   p           SLAC(E155)    59     168.28     109.28       2.85       0.00       3.15
+  10032   p          SLACE80E130    10      13.30       3.30       1.33       0.61       0.19
+  10035   p                  SMC     7       8.69       1.69       1.24       0.02       0.00
+  10036   p                  SMC    11      13.86       2.86       1.26       0.09       0.00
+  10001   d              COMPASS    11      24.55      13.55       2.23       0.00       0.82
+  10006   d               HERMES    16      25.04       9.04       1.56       1.25       2.71
+  10021   d           SLAC(E143)    39      71.59      32.59       1.84       0.00       0.19
+  10027   d           SLAC(E155)    59     127.37      68.37       2.16       0.00       0.41
+  10033   d                  SMC     7      16.18       9.18       2.31       0.00       0.00
+  10034   d                  SMC    11      17.39       6.39       1.58       0.00       0.00
+  10018   h           SLAC(E142)     4       2.94      -1.06       0.73       0.00       0.00
+  10025   h           SLAC(E154)    15      14.05      -0.95       0.94       0.13       0.28
+reaction: pol SIDIS
+filters: Q2>1.690000
+filters: W2>10.000000
+filters: Z>0.2 and Z<0.8
+    idx       tar  had         col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+  20004         p  pi+      HERMES    7     15.39      8.39      2.20      0.00      0.00
+  20005         p  pi-      HERMES    7      9.30      2.30      1.33      0.00      0.00
+  20008         d  pi+      HERMES    7     22.05     15.05      3.15      0.00      0.00
+  20009         d  pi-      HERMES    7     30.98     23.98      4.43      0.00      0.00
+  20012         d   K+      HERMES    7      9.34      2.34      1.33      0.00      0.00
+  20013         d   K-      HERMES    7      7.08      0.08      1.01      0.00      0.00
+  20014         d Ksum      HERMES    7     17.01     10.01      2.43      0.00      0.00
+  20017         p  pi+     COMPASS   10     26.21     16.21      2.62      0.00      0.00
+  20018         p  pi-     COMPASS   10     28.94     18.94      2.89      0.00      0.00
+  20019         p   K+     COMPASS   10     16.87      6.87      1.69      0.00      0.00
+  20020         p   K-     COMPASS   10     12.77      2.77      1.28      0.00      0.00
+  20021         d  pi+     COMPASS    8      5.42     -2.58      0.68      0.00      0.00
+  20022         d  pi-     COMPASS    8      3.44     -4.56      0.43      0.00      0.00
+  20025         d   K+     COMPASS    8      5.04     -2.96      0.63      0.00      0.00
+  20026         d   K-     COMPASS    8     20.50     12.50      2.56      0.00      0.00
+  20000         p   h+         SMC   12     37.96     25.96      3.16      0.00      0.00
+  20001         p   h-         SMC   12     18.81      6.81      1.57      0.00      0.00
+  20002         d   h+         SMC   12     13.53      1.53      1.13      0.00      0.00
+  20003         d   h-         SMC   12     29.22     17.22      2.44      0.00      0.00
+  20006         p   h+      HERMES    7      9.04      2.04      1.29      0.00      0.00
+  20007         p   h-      HERMES    7     14.94      7.94      2.13      0.00      0.00
+  20010         d   h+      HERMES    7     21.31     14.31      3.04      0.00      0.00
+  20011         d   h-      HERMES    7      8.49      1.49      1.21      0.00      0.00
+  20015         h   h+      HERMES    7      6.80     -0.20      0.97      0.00      0.00
+  20016         h   h-      HERMES    7     11.00      4.00      1.57      0.00      0.00
+  20023         d   h+     COMPASS   10      7.94     -2.06      0.79      0.00      0.00
+  20024         d   h-     COMPASS   10     30.29     20.29      3.03      0.00      0.00
+reaction: wzrv
+    idx tar             col             obs  npts       chi2  chi2/npts      rchi2      nchi2
+   1000  pp            STAR             A_L    12      18.83       1.57       0.00       5.39
+   1020  pp       PHENIX(e)             A_L     2       0.95       0.47       0.00       0.00
+   1021  pp      PHENIX(mu)             A_L     4       9.81       2.45       0.00       0.04
+reaction: pjet
+dataset       col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+  20001      star    4      6.10      2.10      1.53      0.02      0.00
+  20002      star    7     12.80      5.80      1.83      0.08      0.02
+  20003      star    9     12.61      3.61      1.40      0.49      0.31
+  20004      star   18     41.54     23.54      2.31      0.15      0.01
+  20005    phenix    2      2.77      0.77      1.39      0.00      0.00
+  20006      star   12     26.16     14.16      2.18      0.05      0.14
+  20007      star   18     49.69     31.69      2.76      0.43      0.58
+  20008      star   13     36.04     23.04      2.77      0.02      6.55
+1       ppdf       db1 N   9.62383e+00
+2       ppdf       db1 a  -7.26977e-01
+3       ppdf       db1 b   6.70726e-01
+4       ppdf       db1 d  -4.50317e-01
+5       ppdf       dv1 N  -3.16112e-01
+6       ppdf       dv1 a   7.64292e-02
+7       ppdf       dv1 b   5.23967e+00
+8       ppdf       dv1 d  -1.28574e-01
+9       ppdf        g1 N   1.19742e-01
+10       ppdf        g1 a   5.00000e+00
+11       ppdf        g1 b   1.34389e+01
+12       ppdf        g1 d  -5.39217e+01
+13       ppdf        s1 N   9.42507e+00
+14       ppdf        s1 a  -7.05504e-01
+15       ppdf        s1 b   5.80982e-01
+16       ppdf        s1 d  -6.69384e-01
+17       ppdf       sb1 N   9.78493e+00
+18       ppdf       sb1 a  -7.38239e-01
+19       ppdf       sb1 b   1.17132e+00
+20       ppdf       sb1 d   3.02446e-01
+21       ppdf      sea1 N  -9.79289e+00
+22       ppdf      sea1 a  -7.34257e-01
+23       ppdf      sea1 b   3.97966e-06
+24       ppdf      sea1 d  -9.95768e-01
+25       ppdf       ub1 N   9.88818e+00
+26       ppdf       ub1 a  -7.33329e-01
+27       ppdf       ub1 b   9.60601e-01
+28       ppdf       ub1 d  -8.11522e-02
+29       ppdf       uv1 N   6.75071e-01
+30       ppdf       uv1 a   6.21427e-01
+31       ppdf       uv1 b   2.64616e+00
+32       ppdf       uv1 d  -7.73326e-01
+33       norm      pidis      10002  9.21679e-01
+34       norm      pidis      10003  9.68947e-01
+35       norm      pidis      10004  9.39977e-01
+36       norm      pidis      10005  9.93753e-01
+37       norm      pidis      10007  9.91025e-01
+38       norm      pidis      10022  1.04716e+00
+39       norm      pidis      10029  1.13497e+00
+40       norm      pidis      10032  9.63364e-01
+41       norm      pidis      10006  9.17762e-01
+42       norm      pidis      10021  1.02151e+00
+43       norm      pidis      10001  1.07253e+00
+44       norm      pidis      10027  9.64577e-01
+45       norm      pidis      10018  9.99300e-01
+46       norm      pidis      10025  9.60612e-01
+47       norm       wzrv       1000  9.14852e-01
+48       norm       wzrv       1020  1.00001e+00
+49       norm       wzrv       1021  1.00622e+00
+50       norm       pjet      20002  1.01437e+00
+51       norm       pjet      20003  1.04645e+00
+52       norm       pjet      20004  9.93384e-01
+53       norm       pjet      20005  9.97682e-01
+54       norm       pjet      20006  1.02478e+00
+55       norm       pjet      20007  1.04642e+00
+56       norm       pjet      20008  8.36145e-01

@@ -1,0 +1,55 @@
+JAM FITTER
+count = 923
+elapsed time(mins)=4.761146
+shifts  = 1
+npts    = 1495
+chi2    = 2988.781919
+rchi2   = 53.545711
+nchi2   = 1.650232
+chi2tot = 3043.977862
+dchi2(iter)  = 1.952258
+dchi2(local) = -0.002905
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000000
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.003816
+pdf db-ub(1):0.150343
+pdf db-ub(2):0.011172
+
+reaction: unpol DIS [nuc=True (deuterium:Paris, helium:KPSV), tmc=False, ht=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>10.000000
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2
+  10010   p       SLAC   218     384.73     166.73       0.00       0.35
+  10016   p      BCDMS   348     723.49     375.49      22.05       0.32
+  10020   p        NMC   273     725.48     452.48      13.61       0.15
+  10011   d       SLAC   228     312.92      84.92       0.00       0.76
+  10017   d      BCDMS   254     492.20     238.20      14.94       0.07
+  10021 d/p        NMC   174     349.96     175.96       2.94       0.00
+1        pdf       db1 N   1.92903e-02
+2        pdf       db1 a  -3.32917e-02
+3        pdf       db1 b   1.40447e+01
+4        pdf       dv1 a  -2.99199e-02
+5        pdf       dv1 b   4.36050e+00
+6        pdf        g1 a  -6.83677e-01
+7        pdf        g1 b   2.60024e+00
+8        pdf        s1 a  -5.00000e-01
+9        pdf        s1 b   9.80860e+01
+10        pdf       sb1 N   3.88629e-03
+11        pdf       sb1 a   9.94031e-01
+12        pdf       sb1 b   4.15857e+00
+13        pdf      sea1 N   7.76907e-03
+14        pdf      sea1 a  -1.18022e+00
+15        pdf      sea1 b   2.11593e+01
+16        pdf       ub1 N   8.11801e-03
+17        pdf       ub1 a   5.86002e-02
+18        pdf       ub1 b   2.00000e+01
+19        pdf       uv1 a  -1.37691e-01
+20        pdf       uv1 b   3.18318e+00
+21       norm       idis      10010  1.01234e+00
+22       norm       idis      10011  1.01482e+00
+23       norm       idis      10016  9.82967e-01
+24       norm       idis      10017  1.00800e+00
+25       norm       idis      10020  1.00777e+00
+26       norm       idis      10021  1.00014e+00

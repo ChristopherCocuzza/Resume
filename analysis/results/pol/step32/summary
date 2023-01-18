@@ -1,0 +1,104 @@
+JAM FITTER
+count = 1478
+elapsed time(mins)=150.839795
+shifts  = 1
+npts    = 793
+chi2    = 1612.370751
+rchi2   = 0.000000
+nchi2   = 205.849429
+chi2tot = 1818.220180
+dchi2(iter)  = 10.809251
+dchi2(local) = -0.753750
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):0.999815
+pdf s-sb(1):-0.000000
+pdf s-sb(2):-0.004086
+pdf db-ub(1):0.387075
+pdf db-ub(2):0.008747
+
+reaction: unpol SIDIS
+filters: Q2>1.690000
+filters: W2>3.000000
+filters: Z>0.2 and Z<0.8
+    idx       tar  had         col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   1005  deuteron  pi+     COMPASS  249    512.69    263.69      2.06      0.00     55.39
+   1006  deuteron  pi-     COMPASS  249    541.20    292.20      2.17      0.00     53.78
+reaction: pol SIDIS
+filters: Q2>1.690000
+filters: W2>10.000000
+filters: Z>0.2 and Z<0.8
+    idx       tar  had         col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+  20004         p  pi+      HERMES    7     16.19      9.19      2.31      0.00      0.00
+  20005         p  pi-      HERMES    7      9.86      2.86      1.41      0.00      0.00
+  20008         d  pi+      HERMES    7      9.79      2.79      1.40      0.00      0.00
+  20009         d  pi-      HERMES    7     20.67     13.67      2.95      0.00      0.00
+  20017         p  pi+     COMPASS   10     19.44      9.44      1.94      0.00      0.00
+  20018         p  pi-     COMPASS   10     25.12     15.12      2.51      0.00      0.00
+  20021         d  pi+     COMPASS    8     13.59      5.59      1.70      0.00      0.00
+  20022         d  pi-     COMPASS    8     10.64      2.64      1.33      0.00      0.00
+reaction: sia
+filters: z>0.2 and z<0.9
+    idx rs       col       had npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+   1001 12     TASSO      pion    1      6.73      5.73      6.73      0.00      1.36
+   1002 14     TASSO      pion    4     18.95     14.95      4.74      0.00      0.01
+   1003 22     TASSO      pion    4      3.06     -0.94      0.77      0.00      0.21
+   1005 34     TASSO      pion    5     23.26     18.26      4.65      0.00      0.21
+   1006 44     TASSO      pion    3      4.60      1.60      1.53      0.00      0.22
+   1007 29       TPC      pion    3      2.67     -0.33      0.89      0.00      0.00
+   1008 29       TPC      pion    9     22.67     13.67      2.52      0.00      0.00
+   1010 29    TPC(c)      pion    3      0.88     -2.12      0.29      0.00      0.00
+   1011 29    TPC(b)      pion    3      2.72     -0.28      0.91      0.00      0.00
+   1013 58     TOPAZ      pion    1      0.00     -1.00      0.00      0.00      0.00
+   1014 91       SLD      pion   15     23.16      8.16      1.54      0.00      0.69
+   1016 91    SLD(c)      pion   15     29.31     14.31      1.95      0.00      1.89
+   1017 91    SLD(b)      pion   15     21.45      6.45      1.43      0.00      0.05
+   1018 91     ALEPH      pion    5     11.41      6.41      2.28      0.00      0.41
+   1019 91      OPAL      pion    6     24.52     18.52      4.09      0.00      0.00
+   1023 91   OPAL(c)      pion    5     13.60      8.60      2.72      0.00     11.62
+   1024 91   OPAL(b)      pion    5     18.36     13.36      3.67      0.00      8.69
+   1025 91    DELPHI      pion    6     36.65     30.65      6.11      0.00      0.00
+   1027 91 DELPHI(b)      pion    6      4.73     -1.27      0.79      0.00      0.00
+   1028 11     BABAR      pion   27     26.48     -0.52      0.98      0.00      2.35
+   1029 11     BELLE      pion   70     67.57     -2.43      0.97      0.00     68.62
+   1030 10     ARGUS      pion   20     70.41     50.41      3.52      0.00      0.36
+1     ffpion        b1 N   7.23218e-01
+2     ffpion        b1 a  -1.80000e+00
+3     ffpion        b1 b   3.47827e+00
+4     ffpion        c1 N   9.99975e-01
+5     ffpion        c1 a  -1.74961e+00
+6     ffpion        c1 b   2.71923e+00
+7     ffpion        d1 N   3.17781e-01
+8     ffpion        d1 a  -1.36050e+00
+9     ffpion        d1 b   2.31320e+00
+10     ffpion        d2 N  -2.91569e-03
+11     ffpion        d2 a   1.00000e+01
+12     ffpion        d2 b   2.58784e+01
+13     ffpion        g1 N   3.78056e-01
+14     ffpion        g1 a   2.56080e-01
+15     ffpion        g1 b   3.00000e+01
+16     ffpion        s1 N   2.03072e-01
+17     ffpion        s1 a   8.04473e-01
+18     ffpion        s1 b   9.07417e+00
+19     ffpion        u1 N   4.80428e-01
+20     ffpion        u1 a  -1.39415e+00
+21     ffpion        u1 b   1.15795e+00
+22     ffpion        u2 N  -1.00000e-02
+23     ffpion        u2 a   9.13120e+00
+24     ffpion        u2 b   8.97026e+00
+25       norm        sia       1001  1.23326e+00
+26       norm        sia       1002  1.00930e+00
+27       norm        sia       1003  1.02874e+00
+28       norm        sia       1005  1.02737e+00
+29       norm        sia       1006  1.02829e+00
+30       norm        sia       1014  9.91710e-01
+31       norm        sia       1018  9.80839e-01
+32       norm        sia       1028  9.84968e-01
+33       norm        sia       1029  8.84028e-01
+34       norm        sia       1030  1.01076e+00
+35       norm        sia       1016  1.01376e+00
+36       norm        sia       1017  1.00217e+00
+37       norm        sia       1023  1.34083e+00
+38       norm        sia       1024  1.29474e+00
+39       norm      sidis       1005  1.29837e+00
+40       norm      sidis       1006  1.29405e+00

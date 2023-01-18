@@ -1,0 +1,124 @@
+JAM FITTER
+count = 2177
+elapsed time(mins)=378.650464
+shifts  = 1
+npts    = 4421
+chi2    = 9285.945084
+rchi2   = 320.042119
+nchi2   = 51.505383
+chi2tot = 9657.492586
+dchi2(iter)  = 21.677231
+dchi2(local) = -9.590151
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000000
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.008051
+pdf db-ub(1):0.372812
+pdf db-ub(2):0.010092
+
+reaction: unpol DIS [nuc=True (deuterium:Paris, helium:KPSV), tmc=AOT, ht=mult, offshell=False]
+filters: Q2>1.690000
+filters: W2>3.000000
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2
+  10010   p       SLAC   564    1033.44     469.44       0.00       2.58
+  10016   p      BCDMS   351     644.36     293.36      14.34       0.04
+  10020   p        NMC   275     738.88     463.88      10.60       0.44
+  10003   p       JLab   136     325.73     189.73       0.00       6.72
+  10026   p       HERA   402    1100.35     698.35     134.48       0.00
+  10027   p       HERA    75     138.43      63.43      11.05       0.00
+  10028   p       HERA   259     450.62     191.62      10.01       0.00
+  10029   p       HERA   209     500.50     291.50      14.61       0.00
+  10030   p       HERA   159     442.51     283.51      15.51       0.00
+  10031   p       HERA    39      78.81      39.81       3.24       0.00
+  10032   p       HERA    42      48.52       6.52       8.39       0.00
+  10011   d       SLAC   582    1145.21     563.21       0.00       7.42
+  10017   d      BCDMS   254     552.73     298.73       8.67       0.71
+  10021 d/p        NMC   189     327.68     138.68       3.87       0.82
+  10002   d       JLab   136     253.10     117.10       0.00       0.54
+  10033 n/d      BONUS   191     365.61     174.61       0.00       0.67
+reaction: dy
+    idx       tar       col npts      chi2 chi2-npts     rchi2     nchi2
+  10001        pp      E866  184    430.26    246.26      0.00      4.67
+  20001     pd/pp      E866   15     60.16     45.16      0.00      0.12
+  20002     pd/pp      E906    6     14.12      8.12      0.04      0.03
+reaction: zrap
+    idx tar             col  npts       chi2  chi2-npts      rchi2      nchi2
+   1000 ppb          CDF(Z)    28      59.48      31.48       0.04       0.03
+   1001 ppb           D0(Z)    28      58.07      30.07       0.08       0.00
+reaction: wasym
+    idx tar             col  npts       chi2  chi2-npts      rchi2      nchi2
+   1000 ppb          CDF(W)    13      26.28      13.28       2.18       0.00
+   1001 ppb           D0(W)    14      18.38       4.38       0.00       0.00
+reaction: wzrv
+    idx tar             col             obs  npts       chi2  chi2-npts      rchi2      nchi2
+   2010  pp   CMS(mu)(2012)        A_eta_mu    11      16.51       5.51       2.21       0.00
+   2011  pp   CMS(mu)(2011)        A_eta_mu    11      22.08      11.08       0.18       0.00
+   2012  pp    CMS(e)(2011)         A_eta_e    11      11.30       0.30       0.22       0.00
+   2013  pp    CMS(e)(2010)         A_eta_e     6       4.01      -1.99       0.67       0.00
+   2014  pp   CMS(mu)(2010)        A_eta_mu     6       2.99      -3.01       0.15       0.00
+   2016  pp  LHCb(mu)(2014)        A_eta_mu     8      15.59       7.59       0.00       0.00
+   2017  pp  LHCb(mu)(2016)        A_eta_mu     8      10.65       2.65       0.06       0.00
+   2020  pp            STAR              RW     9      38.24      29.24       0.00       0.00
+reaction: jet
+dataset       col npts      chi2 chi2-npts chi2/npts     rchi2     nchi2
+  10001        d0  110    139.01     29.01      1.26     30.54     15.76
+  10002       cdf   76    158.69     82.69      2.09     48.65      7.73
+  10003      star    5     44.86     39.86      8.97      0.06      3.08
+  10004      star    9      8.76     -0.24      0.97      0.19      0.13
+1        pdf       db1 N   2.92408e-02
+2        pdf       db1 a  -7.12829e-02
+3        pdf       db1 b   1.25736e+01
+4        pdf       db1 c  -3.31963e+00
+5        pdf       db1 d   6.01127e+00
+6        pdf       dv1 a   6.03151e-02
+7        pdf       dv1 b   5.56957e+00
+8        pdf       dv1 c  -2.54176e+00
+9        pdf       dv1 d   3.67815e+00
+10        pdf        g1 a  -2.65462e-01
+11        pdf        g1 b   1.07529e+01
+12        pdf        g1 c  -4.00643e+00
+13        pdf        g1 d   5.39822e+00
+14        pdf        s1 a  -5.00000e-01
+15        pdf        s1 b   4.89261e+01
+16        pdf       sb1 N   8.23287e-03
+17        pdf       sb1 a   9.98429e-01
+18        pdf       sb1 b   1.45976e+00
+19        pdf      sea1 N   1.11306e-02
+20        pdf      sea1 a  -1.23163e+00
+21        pdf      sea1 b   1.18962e+01
+22        pdf      sea2 N   4.31241e-25
+23        pdf      sea2 a  -1.04360e+00
+24        pdf      sea2 b   2.68887e+01
+25        pdf       ub1 N   1.91486e-02
+26        pdf       ub1 a  -9.42559e-01
+27        pdf       ub1 b   8.87357e+00
+28        pdf       ub1 c  -4.36248e+01
+29        pdf       ub1 d   1.22362e+01
+30        pdf       uv1 a  -4.74194e-01
+31        pdf       uv1 b   3.61997e+00
+32        pdf       uv1 c   1.76988e+00
+33        pdf       uv1 d   6.68360e+00
+34        ht4       F2n N  -1.76484e-01
+35        ht4       F2n a   7.52196e-01
+36        ht4       F2n d  -8.79821e+00
+37        ht4       F2p N  -9.60439e-01
+38        ht4       F2p a   3.99959e+00
+39        ht4       F2p d  -5.86678e+00
+40       norm       idis      10002  1.01289e+00
+41       norm       idis      10003  1.04535e+00
+42       norm       idis      10010  1.03375e+00
+43       norm       idis      10011  1.04631e+00
+44       norm       idis      10016  9.93751e-01
+45       norm       idis      10017  1.02527e+00
+46       norm       idis      10020  1.01331e+00
+47       norm       idis      10021  1.00943e+00
+48       norm       idis      10033  1.03692e+00
+49       norm         dy      10001  1.15125e+00
+50       norm         dy      20001  1.00323e+00
+51       norm         dy      20002  1.00373e+00
+52       norm       zrap       1000  1.00997e+00
+53       norm        jet      10001  7.41968e-01
+54       norm        jet      10002  8.38747e-01
+55       norm        jet      10003  8.59512e-01
+56       norm        jet      10004  9.71265e-01

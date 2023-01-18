@@ -1,0 +1,68 @@
+JAM FITTER
+count = 515
+elapsed time(mins)=13.230513
+shifts  = 1
+npts    = 3863
+chi2    = 8724.169868
+rchi2   = 303.324352
+nchi2   = 21.249516
+chi2tot = 9048.743736
+dchi2(iter)  = 0.031227
+dchi2(local) = -0.004837
+pdf msr:1.000000
+pdf uv(1):2.000000
+pdf dv(1):1.000000
+pdf s-sb(1):0.000000
+pdf s-sb(2):-0.000232
+pdf db-ub(1):0.092659
+pdf db-ub(2):0.009301
+
+reaction: unpol DIS [nuc=True (deuterium:Paris, helium:KPSV), tmc=AOT, ht=False, offshell=False]
+filters: Q2>1.690000
+filters: W2>3.000000
+    idx tar        col  npts       chi2  chi2-npts      rchi2      nchi2
+  10010   p       SLAC   564    1135.15     571.15       0.00       6.07
+  10016   p      BCDMS   351     718.94     367.94      39.86       0.20
+  10020   p        NMC   275     708.67     433.67       7.43       3.39
+  10003   p       JLab   136     405.01     269.01       0.00       0.70
+  10026   p       HERA   402    1035.46     633.46     125.76       0.00
+  10027   p       HERA    75     145.85      70.85      19.10       0.00
+  10028   p       HERA   259     528.61     269.61      12.37       0.00
+  10029   p       HERA   209     408.01     199.01      10.90       0.00
+  10030   p       HERA   159     389.27     230.27      29.99       0.00
+  10031   p       HERA    39      56.15      17.15       1.23       0.00
+  10032   p       HERA    42     101.98      59.98      24.93       0.00
+  10011   d       SLAC   582    1496.28     914.28       0.00       7.83
+  10017   d      BCDMS   254     514.45     260.45      27.97       1.36
+  10021 d/p        NMC   189     386.24     197.24       3.78       0.20
+  10002   d       JLab   136     264.79     128.79       0.00       1.44
+  10033 n/d      BONUS   191     429.29     238.29       0.00       0.05
+1        pdf       db1 N   2.15297e-02
+2        pdf       db1 a  -2.52664e-03
+3        pdf       db1 b   1.41874e+01
+4        pdf       dv1 a   6.34435e-02
+5        pdf       dv1 b   4.52059e+00
+6        pdf        g1 a  -4.17212e-01
+7        pdf        g1 b   1.27791e+01
+8        pdf        s1 a  -5.00000e-01
+9        pdf        s1 b   1.00000e+02
+10        pdf       sb1 N   2.36650e-04
+11        pdf       sb1 a   9.83202e-01
+12        pdf       sb1 b   4.36108e+00
+13        pdf      sea1 N   1.01592e-02
+14        pdf      sea1 a  -1.20828e+00
+15        pdf      sea1 b   1.29027e+01
+16        pdf       ub1 N   1.22291e-02
+17        pdf       ub1 a  -1.61202e-01
+18        pdf       ub1 b   1.57668e+01
+19        pdf       uv1 a  -6.24895e-02
+20        pdf       uv1 b   3.28802e+00
+21       norm       idis      10002  9.78985e-01
+22       norm       idis      10003  1.01465e+00
+23       norm       idis      10010  1.05176e+00
+24       norm       idis      10011  1.04758e+00
+25       norm       idis      10016  1.01348e+00
+26       norm       idis      10017  1.03502e+00
+27       norm       idis      10020  1.03681e+00
+28       norm       idis      10021  9.95385e-01
+29       norm       idis      10033  9.89713e-01
