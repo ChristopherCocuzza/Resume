@@ -25,6 +25,7 @@ This directory contains the code used to submit the $\chi^2$ minimizations and a
 
 Here are some example plots made in this directory:
 
+![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
