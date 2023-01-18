@@ -15,7 +15,9 @@ It consists of the following modules:
 * <u>tools</u>: This module contains tools used elsewhere, including parallelization and reading Excel files
 
 
+**analysis**
 
+![image info][analysis/plots/star/gallery/spin.png]
 
 
 
