@@ -27,7 +27,7 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
-<b> Caption </b>: Jefferson Lab Angular Momentum Collaboration (JAM). Bologna-CERN-Dubna-Munich-Saclay (BCDMS) [[1]][BCDMS], Stanford Linear Accelerator Center (SLAC) [[2]][SLAC], New Muon Collaboration (NMC) [[3]][NMC], and Hadron-Electron Ring Accelerator [[4]][HERA].
+<b> Caption </b>: This plot shows the comparison between my theoretical model with fitted parameters and experimental data for the experimental process known as Deep Inelastic Scattering (DIS), where a high energy electron scatters off (in this case) a proton target.  The theory result was derived in collaboration with the Jefferson Lab Angular Momentum Collaboration (JAM) and is labeled as JAM. The experimental data come from the Bologna-CERN-Dubna-Munich-Saclay (BCDMS) collaboration [[1]][BCDMS], Stanford Linear Accelerator Center (SLAC) [[2]][SLAC], New Muon Collaboration (NMC) [[3]][NMC], and Hadron-Electron Ring Accelerator [[4]][HERA].
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
