@@ -27,7 +27,7 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
-<b> Caption </b>: BCDMS [[1]][BCDMS], SLAC [[2]][SLAC], NMC [[3]][NMC], and HERA [[4]][HERA].
+<b> Caption </b>: Bologna-CERN-Dubna-Munich-Saclay (BCDMS) [[1]][BCDMS], Stanford Linear Accelerator Center (SLAC) [[2]][SLAC], New Muon Collider? (NMC) [[3]][NMC], and Hadron-Electron Ring Accelerator [[4]][HERA].
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
