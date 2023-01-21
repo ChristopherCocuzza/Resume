@@ -31,13 +31,28 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
+<b> Caption </b>: Compared to other analyses: NNPDF3.1 [[1]][NNPDF3.1], ABMP16 [[2]][ABMP16], CJ15 [[3]][CJ15], and CT18 [[4]][CT18].
+
 ![plot](./analysis/plots/star/gallery/spin.png)
 
+<b> Caption </b>: Compared to other analyses: NNPDFpol1.1 [[1]][NNPDFpol1.1] and DSSV08 [[2]][DSSV08]
 
 [BCDMS]: https://inspirehep.net/record/276661?ln=en
 [SLAC]:https://inspirehep.net/literature/319089
 [NMC]: http://inspirehep.net/record/424154?ln=en
 [HERA]: https://inspirehep.net/record/1377206?ln=en
+
+[NNPDF3.1]: https://inspirehep.net/literature/1602475
+[ABMP16]: https://inspirehep.net/literature/1510074
+[CJ15]: https://inspirehep.net/literature/1420566
+[CT18]: https://inspirehep.net/literature/1773096
+
+[NNPDFpol1.1]: https://inspirehep.net/literature/1302398
+[DSSV08]: https://inspirehep.net/literature/818692
+
+
+
+
 
 
 
