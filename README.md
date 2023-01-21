@@ -31,7 +31,7 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
-<b> Caption </b>: This plot shows the parameterized functions after they have been fit to the experimental data.  The functions shown here are known as unpolarized Parton Distribution Functions (PDFs), which describe the 1-dimensional momentum distribution of partons (quarks and gluons) within an unpolarized proton. The top left plot shows the up $u_v$ and down ($d_v$) quarks, the top right plot the gluon $g$, the bottom left plot the anti-up and anti-down ($\bar{d}$) quarks, and the bottom right plot the strange and anti-strange quarks.  They are a function of $x$, the parton's momentum relative to the proton's momentum. The result is compared to those of other analyses, including NNPDF3.1 [[1]][NNPDF3.1], ABMP16 [[2]][ABMP16], CJ15 [[3]][CJ15], and CT18 [[4]][CT18].
+<b> Caption </b>: This plot shows the parameterized functions after they have been fit to the experimental data.  The functions shown here are known as unpolarized Parton Distribution Functions (PDFs), which describe the 1-dimensional momentum distribution of partons (quarks and gluons) within an unpolarized proton. The top left plot shows the up $u_v$ and down $d_v$ quarks, the top right plot the gluon $g$, the bottom left plot the anti-up $\bar{u}$ and anti-down $\bar{d}$ quarks, and the bottom right plot the strange $s$ and anti-strange $\bar{s}$ quarks.  They are a function of $x$, the parton's momentum relative to the proton's momentum. The result is compared to those of other analyses, including NNPDF3.1 [[1]][NNPDF3.1], ABMP16 [[2]][ABMP16], CJ15 [[3]][CJ15], and CT18 [[4]][CT18].
 
 ![plot](./analysis/plots/star/gallery/spin.png)
 
