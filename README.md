@@ -27,14 +27,17 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
-<b> Caption </b>: [[1]][SLAC]
+<b> Caption </b>: BCDMS [[1]][BCDMS], SLAC [[2]][SLAC], NMC [[3]][NMC], and HERA [[4]][HERA].
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
 ![plot](./analysis/plots/star/gallery/spin.png)
 
 
+[BCDMS]: https://inspirehep.net/record/276661?ln=en
 [SLAC]:https://inspirehep.net/literature/319089
+[NMC]: http://inspirehep.net/record/424154?ln=en
+[HERA]: https://inspirehep.net/record/1377206?ln=en
 
 
 
