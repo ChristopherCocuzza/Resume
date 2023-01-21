@@ -27,12 +27,14 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
+<b> Caption <\b>: [1][SLAC]
+
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
 ![plot](./analysis/plots/star/gallery/spin.png)
 
 
-
+[SLAC]:https://inspirehep.net/literature/319089
 
 
 
