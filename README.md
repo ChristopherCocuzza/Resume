@@ -27,7 +27,7 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/thesis/gallery/DIS-proton.png)
 
-<b> Caption <\b>: [1][SLAC]
+<b> Caption </b>: [[1]][SLAC]
 
 ![plot](./analysis/plots/seaquest/gallery/PDFs.png)
 
