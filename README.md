@@ -35,7 +35,7 @@ Here are some example plots made in this directory:
 
 ![plot](./analysis/plots/star/gallery/spin.png)
 
-<b> Caption </b>: This plot shows the (truncated) contribution to the proton's overall spin from the up $\Delta u^+$ and down $\Delta d^+$ quarks on the left panel, and the anti-up $\Delta \bar{u}$ and anti-down $\Delta \bar{d}$ quarks on the right panel. The primary result is shown in red and is compared to results from the NNPDFpol1.1 [[1]][NNPDFpol1.1] and DSSV08 [[2]][DSSV08] analyses.
+<b> Caption </b>: This plot shows the (truncated) contribution to the proton's overall spin from the up $\Delta u^+$ and down $\Delta d^+$ quarks on the left panel, and the anti-up $\Delta \bar{u}$ and anti-down $\Delta \bar{d}$ quarks on the right panel. Integrating over the momentum fraction $x$ gives the contribution to the proton's spin.  The primary result is shown in red and is compared to results from the NNPDFpol1.1 [[1]][NNPDFpol1.1] and DSSV08 [[2]][DSSV08] analyses.
 
 [BCDMS]: https://inspirehep.net/record/276661?ln=en
 [SLAC]:https://inspirehep.net/literature/319089
