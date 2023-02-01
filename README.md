@@ -57,4 +57,4 @@ This repository...
 
 ![plot](./TensorFlow/gallery/test_NN_RS200.png)
 
-<b>Caption</b>: This plot shows a comparison between three methods of calculating an experimental observable as a function of three variables: $M_h$, $P_{hT}$, and $\eta$.  The bottom row shows the ``unpolarized cross section," the middle row shows the ``polarized cross section," while the top row shows the ``asymmetry," which is simply the ratio of the polarized and unpolarized cross sections.
+<b>Caption</b>: This plot shows a comparison between three methods of calculating an experimental observable as a function of three variables: $M_h$, $P_{hT}$, and $\eta$.  The bottom row shows the "unpolarized cross section," the middle row shows the "polarized cross section," while the top row shows the "asymmetry," which is simply the ratio of the polarized and unpolarized cross sections.
