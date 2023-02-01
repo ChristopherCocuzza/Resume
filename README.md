@@ -29,7 +29,7 @@ Here are some example plots made in this directory:
 
 <b>Caption</b>: This plot shows the comparison between my theoretical model with fitted parameters and experimental data for the experimental process known as Deep Inelastic Scattering (DIS), where a high energy electron scatters off (in this case) a proton target.  The theory result was derived in collaboration with the Jefferson Lab Angular Momentum Collaboration (JAM) and is labeled as JAM. The experimental data come from the Bologna-CERN-Dubna-Munich-Saclay (BCDMS) collaboration [[1]][BCDMS], Stanford Linear Accelerator Center (SLAC) [[2]][SLAC], New Muon Collaboration (NMC) [[3]][NMC], and Hadron-Electron Ring Accelerator [[4]][HERA].
 
-![plot](./aAalysis/plots/seaquest/gallery/PDFs.png)
+![plot](./Analysis/plots/seaquest/gallery/PDFs.png)
 
 <b>Caption</b>: This plot shows the parameterized functions after they have been fit to the experimental data.  The functions shown here are known as unpolarized Parton Distribution Functions (PDFs), which describe the 1-dimensional momentum distribution of partons (quarks and gluons) within an unpolarized proton. The top left plot shows the up $u_v$ and down $d_v$ quarks, the top right plot the gluon $g$, the bottom left plot the anti-up $\bar{u}$ and anti-down $\bar{d}$ quarks, and the bottom right plot the strange $s$ and anti-strange $\bar{s}$ quarks.  They are a function of $x$, the parton's momentum relative to the proton's momentum. The result is compared to the NNPDF3.1 [[1]][NNPDF3.1], ABMP16 [[2]][ABMP16], CJ15 [[3]][CJ15], and CT18 [[4]][CT18] analyses.
 
