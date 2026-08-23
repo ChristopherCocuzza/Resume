@@ -53,7 +53,6 @@ Here are some example plots made in this directory:
 
 ## **TensorFlow**
 
-This repository...
 
 ![plot](./TensorFlow/gallery/test_NN_RS200.png)
 
